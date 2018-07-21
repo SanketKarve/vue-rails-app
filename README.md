@@ -1,6 +1,6 @@
 # README
 
-Here is blog https://www.sanketkarve.com/blog/vue-rails-integration/
+Here is blog http://www.sanketkarve.com/blog/vue-rails-integration/
 to understand how to integrate Vue.js and Rails 5
 
 ## Prerequisites for webpacker gem

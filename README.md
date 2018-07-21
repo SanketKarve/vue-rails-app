@@ -11,25 +11,25 @@ to understand how to integrate Vue.js and Rails 5
 * Yarn 0.25.2+
 
 ## How to use it:
-1. Clone the repository
-2. Install bundles
+* Clone the repository
+* Install bundles
 
-```
-  bundle install
-```
+  ```
+    bundle install
+  ```
 
-3. Setup Database
+* Setup Database
   ```
     rails db:setup
     rails db:migrate
   ```
 
-4. Install webpacker
+* Install webpacker
   ```
     bundle exec rails webpacker:install
   ```
 
-5. Start the Server:
+* Start the Server:
 
   Starting Rails Server
   ```
@@ -40,9 +40,9 @@ to understand how to integrate Vue.js and Rails 5
     ./bin/webpack-dev-server
   ```
 
-* NOTE: You can use gem liske formen to start rails and webpacker server
+* NOTE: You can use gem like foreman to start rails and webpacker server
 
-##Reference website:
+## Reference website:
 
 - https://github.com/codahale/bcrypt-ruby
 - https://github.com/rails/webpacker

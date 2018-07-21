@@ -1,28 +1,49 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Here is blog https://www.sanketkarve.com/blog/vue-rails-integration/
+to understand how to integrate Vue.js and Rails 5
 
-Things you may want to cover:
+## Prerequisites for webpacker gem
 
-* Ruby version
+* Ruby 2.2+
+* Rails 4.2+
+* Node.js 6.0.0+
+* Yarn 0.25.2+
 
-* System dependencies
+## How to use it:
+1. Clone the repository
+2. Install bundles
 
-* Configuration
+```
+  bundle install
+```
 
-* Database creation
+3. Setup Database
+  ```
+    rails db:setup
+    rails db:migrate
+  ```
 
-* Database initialization
+4. Install webpacker
+  ```
+    bundle exec rails webpacker:install
+  ```
 
-* How to run the test suite
+5. Start the Server:
 
-* Services (job queues, cache servers, search engines, etc.)
+  Starting Rails Server
+  ```
+    rails s
+  ```
+  Starting webpack dev server on other terminal
+  ```
+    ./bin/webpack-dev-server
+  ```
 
-* Deployment instructions
+* NOTE: You can use gem liske formen to start rails and webpacker server
 
-* ...
+##Reference website:
 
-Reference website:
-- https://github.com/rails/webpacker
 - https://github.com/codahale/bcrypt-ruby
+- https://github.com/rails/webpacker
+- https://vuejs.org/v2/guide/index.html
